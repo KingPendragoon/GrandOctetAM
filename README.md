@@ -1,37 +1,51 @@
-No Test Macro:
+No Test Macro for this
 
-Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS) and that in triggernometry it is configured under
- "Options > Edit Configuration > FInal Fantasy XIV" that player list set to "Custom Order" and is in the proper order as well of Tanks, Healers, DPS. 
+You need triggernometry for this Version 1.1.4.1 Or higher: https://github.com/paissaheavyindustries/Triggernometry
 
-This is a lot simpler of Auto Marker then that used in the UwU Gaols auto marker as priority is not needed.  
-But the basic set up of hotbar and triggernometry settings is the same.  For a visual guide please reference only the setup section
-of my uwu gaols readme at https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/README.md
+Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS)
+![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartySortInGame.png?raw=true)
 
-You will need F1-F9 set up with keybinds on the hotbar.
+In triggernometry it is configured under "Options > Edit Configuration > Final Fantasy XIV" that player list set to `Custom Order`. Then Go through and make sure that your `In Game Role Sort Settings` and your Triggernometry Player List Custom Order match 1 to 1.  ***If they do not then the auto markers will mark the wrong players***
 
-F1: /mk attack <1>
-F2: /mk attack <2>
-F3: /mk attack <3>
-F4: /mk attack <4>
-F5; /mk attack <5>
-F6: /mk attack <6>
-F7: /mk attack <7>
-F8: /mk attack <8>
 
-F9
+ ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartyListTriggerStep1.png?raw=true)
+ 
+ ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartyListTriggerStep2.png?raw=true)
+ 
+ ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartyListTriggerStep3.png?raw=true)
+ 
+
+The following Macros will need to be created and added to the F1-F9 keys
+
+F1: `/mk attack <1>`
+
+F2: `/mk attack <2>`
+
+F3: `/mk attack <3>`
+
+F4: `/mk attack <4>`
+
+F5: `/mk attack <5>`
+
+F6: `/mk attack <6>`
+
+F7: `/mk attack <7>`
+
+F8: `/mk attack <8>`
+
+
+
+F9:
+````
+/merror off
 /mk clear <1>
-
 /mk clear <2>
-
 /mk clear <3>
-
 /mk clear <4>
-
 /mk clear <5>
-
 /mk clear <6>
-
 /mk clear <7>
-
 /mk clear <8>
-
+````
+It will look like this.  It does not have to be visible to work but it does have to exist on the class you are playing as. 
+![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/InGameHotbar.png?raw=true)
