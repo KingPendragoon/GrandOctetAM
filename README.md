@@ -1,3 +1,5 @@
+V1.01 (Needs Testing)
+
 No Test Macro for this
 
 You need triggernometry for this Version 1.1.4.1 Or higher: https://github.com/paissaheavyindustries/Triggernometry
