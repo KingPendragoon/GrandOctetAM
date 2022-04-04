@@ -1,8 +1,8 @@
-V1.01 (Needs Testing)
+V1.01 
 
 No Test Macro for this
 
-You need triggernometry https://github.com/paissaheavyindustries/Triggernometry/latest
+You need triggernometry https://github.com/paissaheavyindustries/Triggernometry/releases/latest
 
 Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS)
 ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartySortInGame.png?raw=true)
@@ -49,5 +49,6 @@ F9:
 /mk clear <7>
 /mk clear <8>
 ````
+Note: this will not fire if someone is dead during grand octet cast.
 It will look like this.  It does not have to be visible to work but it does have to exist on the class you are playing as. 
 ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/InGameHotbar.png?raw=true)
